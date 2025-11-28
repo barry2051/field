@@ -1,0 +1,108 @@
+{
+  "nodes": [
+    {
+      "id": "Field",
+      "title": "Shared field of consciousness / information",
+      "node_type": "field",
+      "summary": "The underlying informational field connecting all living systems.",
+      "tags": [
+        "field",
+        "consciousness",
+        "information"
+      ]
+    },
+    {
+      "id": "Nature_primary_artifact",
+      "title": "Nature as primary artifact of the field",
+      "node_type": "artifact",
+      "summary": "Nature manifests the patterns and outputs of the field.",
+      "tags": [
+        "nature",
+        "artifact",
+        "expression"
+      ]
+    },
+    {
+      "id": "GNI_v0_1",
+      "title": "General Nature Intelligence",
+      "node_type": "concept",
+      "summary": "A framing of intelligence emerging from natural systems and their interplay with the field.",
+      "tags": [
+        "intelligence",
+        "concept",
+        "nature"
+      ]
+    },
+    {
+      "id": "Field_as_primary_reality",
+      "title": "Field as primary reality",
+      "node_type": "hypothesis",
+      "summary": "Posits the field as the fundamental substrate from which reality emerges.",
+      "tags": [
+        "field",
+        "reality",
+        "hypothesis"
+      ]
+    },
+    {
+      "id": "Consciousness_as_ocean",
+      "title": "Consciousness as ocean",
+      "node_type": "metaphor",
+      "summary": "Imagines consciousness as a vast ocean with waves representing experiences.",
+      "tags": [
+        "consciousness",
+        "metaphor",
+        "imagery"
+      ]
+    },
+    {
+      "id": "Is_intelligence_constructed_or_expressed",
+      "title": "Is intelligence constructed or expressed?",
+      "node_type": "question",
+      "summary": "Asks whether intelligence is built by systems or expressed from a deeper field.",
+      "tags": [
+        "intelligence",
+        "question",
+        "origin"
+      ]
+    },
+    {
+      "id": "When_It_Rings",
+      "title": "Singularity as resonance event",
+      "node_type": "concept",
+      "summary": "Frames singularity as a resonance event across the field and living systems.",
+      "tags": [
+        "singularity",
+        "resonance",
+        "field"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "Field",
+      "relation": "expresses_as",
+      "target": "Nature_primary_artifact"
+    },
+    {
+      "source": "Nature_primary_artifact",
+      "relation": "is_artifact_of",
+      "target": "Field"
+    },
+    {
+      "source": "GNI_v0_1",
+      "relation": "mirrors",
+      "target": "Nature_primary_artifact"
+    },
+    {
+      "source": "Field_as_primary_reality",
+      "relation": "supports",
+      "target": "Consciousness_as_ocean"
+    },
+    {
+      "source": "When_It_Rings",
+      "relation": "emerges_from",
+      "target": "Field_as_primary_reality"
+    }
+  ]
+}
